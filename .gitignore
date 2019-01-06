@@ -1,0 +1,12 @@
+#uploading script with SCP
+upload_to_WWW.bat
+
+#Python precompiled files
+*.pyc
+
+# generated website content
+output/
+
+# IPython
+.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
