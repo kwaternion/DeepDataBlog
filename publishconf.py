@@ -10,7 +10,11 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = ''
+print "Configuring to production"
+
+SITEURL = 'http://deepdata.com.pl'
+SITELOGO = SITEURL + '/images/logo.jpg'
+
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
