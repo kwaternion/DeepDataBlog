@@ -1,0 +1,76 @@
+https://search.google.com/search-console/
+
+Bias variance
+Regularization Lasso features selection
+Perceptron learining and proof
+PAC
+VC dimension
+L1 L2 regulariztion -> Gauss, Laplace
+Softmax, corsspentropy loss vs MSE
+
+SYLE:
+Centering images
+Remove margin or spacer fo jupyter is more shifted left.
+
+cs231n na chmurze
+fastAi na chmurze 
+https://medium.com/@howkhang/ultimate-guide-to-setting-up-a-google-cloud-machine-for-fast-ai-version-2-f374208be43
+https://medium.com/@jamsawamsa/running-a-google-cloud-gpu-for-fast-ai-for-free-5f89c707bae6
+perceptron
+bias variance
+logistic regresion (10-601 Machine Learning Spring 2015 - Lecture 6)
+ssh to VM
+LV codes - i ten od chlopakow z MPQ:)
+
+a potem VNC na VM
+
+dockery?
+VC dimension
+Regularyzacja L1 jako selector - ten rysunek z izocostami - i e dla duzych kosztow zawsze bedzie wybieral
+Regularyzacja - wspomagac sie learining from data I ILS
+
+
+35.204.45.33 
+perceptron z kernelami!
+ipykernels do jupytera dodawanie
+wypisac aliasy z gitconfigu (location: C:\Users\PawelY2P\.gitconfig)
+0.	Add summary
+01	add proper tags
+1.	Cs231n
+2.	create shapshot
+4) Adding kernels to Jupyter with conda (add conda env, activsate, conda install ipkernell, python -m ipykernel install --user --name other-env --display-name "Python (other-env)"), https://ipython.readthedocs.io/en/stable/install/kernel_install.html
+3.	Autostart vnc? To DO
+4.	Perceptron
+5.	Bisa variance
+numba numpy speed
+urinator test
+multicolinearity
+kody: svm?, trees, perceptron, etc, OLSE,
+bootstraaing -> show that is better than without replacent, or differn than n size
+6 why (y-y_hat)^2 0> bo analityka latwa i rozklad normalny ressidow, -> laplaca pokazac
+resorces (books and videos) for ML and DL
+
+In order to better understand the profile of this specific function, let us install line_profiler and wire it to IPython:
+
+$ pip install line_profiler
+    Under IPython 0.13+, first create a configuration profile:
+    $ ipython profile create
+    Then register the line_profiler extension in ~/.ipython/profile_default/ipython_config.py:
+    c.TerminalIPythonApp.extensions.append('line_profiler')
+    c.InteractiveShellApp.extensions.append('line_profiler')
+    This will register the %lprun magic command in the IPython terminal application and the other frontends such as qtconsole and notebook.
+
+%lprun -f  ->timing profiling of *.py code in jupyter very nice
+%mprun
+
+Cs231n
+this way we can add script for jupyter and env
+http://cs231n.github.io/setup-instructions/
+http://cs231n.github.io/gce-tutorial/
+conda create --name myenvenv list
+conda create -n cs231 python=3.6.4
+source activate cs231
+or conda activate cs231
+TO add kernel to jupyter:
+conda install ipykernel
+python -m ipykernel install --user --name cs231 --display-name "Py_cs231"

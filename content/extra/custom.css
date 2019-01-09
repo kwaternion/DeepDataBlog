@@ -1,0 +1,16 @@
+@media screen and (min-width:768px){
+	aside{width:20%} /*reduces width of left/menu panel*/
+	aside div img{max-width: 120px !important;}/*sets size of logo for wide screen*/
+	main {width: 80%;left: 20%;} /*reduces twidth of the main text*/
+}
+.prompt{min-width: 0ex !important} /*removes itdenation of text, specially in jupyter notebooks*/
+main article{margin:0% 12% 2% 7%} /* top right bottom left modifies maring to nicer file the page*/
+aside div img{max-width: 30px} /*reduces image size for narrow mode*/
+/*.highlight {
+	background: #272822 !important;
+       /* Adding !important will give this rule more precedence over inline style
+This way can have monokai code synax style in Jupyrt notebook	   
+}*/
+
+/*
+/*
