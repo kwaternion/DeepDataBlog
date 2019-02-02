@@ -7,7 +7,7 @@ AUTHOR = u'Pawel Wnuk'
 SITENAME = u'Deep Data'
 SITEURL = 'http://localhost:8000'
 SITETITLE = 'DeepData site'
-SITESUBTITLE = 'Personal site on ML and DL'
+SITESUBTITLE = 'Insights and hints on Data Science, Machine Learning and Deep Learning'
 SITEDESCRIPTION = 'My preronal site'
 SITELOGO = SITEURL + '/images/logo.jpg'
 BROWSER_COLOR = '#333333'
@@ -73,7 +73,7 @@ MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
 			 #those items are created at top of pages
-SOCIAL = (('linkedin', 'https://pl.linkedin.com/in/pawel-wnuk-phd-418a9814'),)
+SOCIAL = (('linkedin', 'https://www.linkedin.com/in/pawel-wnuk-phd-418a9814'),)
 
 COPYRIGHT_YEAR = datetime.datetime.now().year
 
