@@ -50,7 +50,6 @@ SITEMAP = {
     },
 	'exclude': ['tag/', 'category/']
 }
-#in sitemap 'exclude': ['tag/', 'category/']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -80,6 +79,7 @@ COPYRIGHT_YEAR = datetime.datetime.now().year
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {'extra/custom.css': {'path': 'static/custom.css'},
 'extra/favicon.ico': {'path': 'favicon.ico'},
+'extra/google1de616436ea43247': {'path': 'google1de616436ea43247.html'},
 'extra/robots.txt': {'path': 'robots.txt'},}
 
 

@@ -1,5 +1,12 @@
 https://search.google.com/search-console/
+jupyter:
+time profiling:
+%load_ext line_profiler
+%lprun -f python_01 python_01(X,Y)
 
+
+Squared loss for Logisitc - locla optimas
+numba
 Bias variance
 Regularization Lasso features selection
 Perceptron learining and proof
@@ -8,10 +15,9 @@ VC dimension
 L1 L2 regulariztion -> Gauss, Laplace
 Softmax, corsspentropy loss vs MSE
 
-SYLE:
-Centering images
-Remove margin or spacer fo jupyter is more shifted left.
-
+Books and videos for ML theory and practice
+How to make a static page with pelican
+jupyter chetesheet on md: https://jupyter.brynmawr.edu/services/public/dblank/Jupyter%20Notebook%20Users%20Manual.ipynb#4.7-Including-Code-Examples
 cs231n na chmurze
 fastAi na chmurze 
 https://medium.com/@howkhang/ultimate-guide-to-setting-up-a-google-cloud-machine-for-fast-ai-version-2-f374208be43
@@ -34,12 +40,12 @@ Regularyzacja - wspomagac sie learining from data I ILS
 perceptron z kernelami!
 ipykernels do jupytera dodawanie
 wypisac aliasy z gitconfigu (location: C:\Users\PawelY2P\.gitconfig)
-0.	Add summary
-01	add proper tags
+
+0.	dula svm, conjugate gradients, genertive stories,
 1.	Cs231n
 2.	create shapshot
 4) Adding kernels to Jupyter with conda (add conda env, activsate, conda install ipkernell, python -m ipykernel install --user --name other-env --display-name "Python (other-env)"), https://ipython.readthedocs.io/en/stable/install/kernel_install.html
-3.	Autostart vnc? To DO
+3.	Autostart vnc? To DO and autostaart to jupyter
 4.	Perceptron
 5.	Bisa variance
 numba numpy speed
@@ -67,6 +73,14 @@ Cs231n
 this way we can add script for jupyter and env
 http://cs231n.github.io/setup-instructions/
 http://cs231n.github.io/gce-tutorial/
+
+
+
+CONDA:
+conda create -n recommender python=3.6 ipykernel
+conda activate recommender
+python -m ipykernel install --user --name recommender  --display-name "Recom_systems"
+
 conda create --name myenvenv list
 conda create -n cs231 python=3.6.4
 source activate cs231
