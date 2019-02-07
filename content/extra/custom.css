@@ -6,6 +6,18 @@
 .prompt{min-width: 0ex !important} /*removes itdenation of text, specially in jupyter notebooks*/
 main article{margin:0% 12% 2% 7%} /* top right bottom left modifies maring to nicer file the page*/
 aside div img{max-width: 30px} /*reduces image size for narrow mode*/
+
+
+/*.input_area (cell) and .highlight (in markdown python code insert) are placeholders, where code (like cells) is dispalyed
+input area contains specifically also .highlight style, thus only highlight style needs to be modified
+In the modification below, spacing between lines in the cells code and fonts has been reduced.*/
+.highlight {
+	line-height:1.1em !important;
+	font-size:0.8em !important;
+}
+.highlight pre{padding:1px !important;}/*this one together with the one above, remove sliders around 
+cells inside jupyter pages*/
+
 /*.highlight {
 	background: #272822 !important;
        /* Adding !important will give this rule more precedence over inline style
